@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+/********************************************************/
+::-webkit-scrollbar { width: 9px; }
+::-webkit-scrollbar-track { background: rgba(32, 32, 45, 0.70); border: 4px solid #20202d; }
+::-webkit-scrollbar-thumb { background: linear-gradient(-45deg, #dc143c, #dc143c, #dc143c, #dc143c); border: 4px solid #20202d }
+/********************************************************/
+::-moz-selection{
+color:#fff;
+background-color:#dc143c
+}
+::selection{
+color:#fff;
+background-color:#dc143c
+}
+/********************************************************/
+body{
+background-color: #13151a;
+}
+
+.title_text{
+font-size: 25px;
+color: #cfd2de;
+line-height: 137%;
+margin: -3px 0;
+font-family: 'Lacquer', cursive;
+text-decoration: underline;
+text-shadow: 0 0 10px #000, 0 0 5px #000;
+font-weight: 400;
+text-transform: uppercase;}
+
+main{
+margin: auto;
+text-align: center;
+border: none;
+outline: none;
+padding: 0;}
+
+main > * {
+display: block;
+margin: 10px auto;}
+
+textarea {
+width: 70%;
+min-height: 100px;
+height: 100px;
+resize: none;
+background: #16191e;
+font-family: "Roboto";
+color: #cbceda;
+border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);}
+
+h1{
+    font-family: "Roboto";
+    color: #fff;
+    font-size: 80%;
+    }
+.counter{
+    font-family: 'Lacquer', cursive;
+}
+
+.grad-bar {
+  width: 100%;
+  height: 2.5px;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  	-webkit-animation: gradbar 15s ease infinite;
+	-moz-animation: gradbar 15s ease infinite;
+	animation: gradbar 15s ease infinite;
+}
+/* KEYFRAME ANIMATIONS */
+
+@-webkit-keyframes gradbar {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes gradbar {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes gradbar {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
